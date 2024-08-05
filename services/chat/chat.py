@@ -63,16 +63,16 @@ YouTube動画に関する要望に答えましょう。必要に応じて動画�
 """.strip()]
     if snippet is not None:
         query += [f"""
-    # 動画情報
-    
-    ## 動画タイトル
-    
-    {snippet.title}
-    
-    ## 動画概要
-    
-    {snippet.description}
-    """]
+# 動画情報
+
+## 動画タイトル
+
+{snippet.title}
+
+## 動画概要
+
+{snippet.description}
+""".strip()]
 
     query = [f"""
 # 文字起こし結果
