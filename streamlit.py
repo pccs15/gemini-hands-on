@@ -6,7 +6,7 @@ from services.youtube.video_id import extract_video_id
 
 # ユーザーの入力部分
 with st.chat_message("assistant"):
-    st.write("こんにちは。YouTube動画に関してお役に立てることはありますか？")
+    st.write("こんにちは。YouTube動画に関してお役に立てることはありますか？？")
 
 text = st.chat_input("入力してください。")
 
